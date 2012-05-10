@@ -102,15 +102,8 @@ $(document).ready(function(){
         [".carousel .1", ".carousel .2",
         ".carousel .3", ".carousel .4"]
     });    
-    
-	$(".product-gallery .product_prvw-img, .product-related .product_prvw-img").fancybox({
-        'overlayColor'  : '#000',
-        'overlayOpacity': '0.7',
-		'scrolling'		: 'no',
-		'titleShow'		: false,
-		'padding'       : 0,
-		'width'         : '700px'
-	});
+    	
+	$('.comparison tr td:last-child .brdr').addClass('brdr_lst');
 
 	_AT.stickybar.scroll();
 
