@@ -708,6 +708,10 @@ input, textarea {font:1.143em/1.438 'Times New Roman',serif; font-style:italic;}
 @media screen and (-webkit-min-device-pixel-ratio:0) {
     .input input {top:0 !important;}
 }
+/* For Opera (all versions) */
+@media all and (-webkit-min-device-pixel-ratio:10000), not all and (-webkit-min-device-pixel-ratio:0) {
+    .input_quantity input {top:-0.143em;}
+}
 
 /* Form */
 .f-title, .f-subtitle, .f-label {color:#000;}
@@ -776,6 +780,10 @@ input, textarea {font:1.143em/1.438 'Times New Roman',serif; font-style:italic;}
 .f-search-submit {right:9px; top:50%; margin-top:-7px; background:url(../i/icons.png) -238px -33px no-repeat;}
 .f-search-submit input {visibility:hidden;}
 .f-search_wide .input {width:427px;}
+/* For Opera (all versions) */
+@media all and (-webkit-min-device-pixel-ratio:10000), not all and (-webkit-min-device-pixel-ratio:0) {
+    .f-search .input input {top:-0.071em;}
+}
 
 /* Autocomplete */
 .ac {
