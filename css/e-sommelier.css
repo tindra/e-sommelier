@@ -484,8 +484,8 @@ a.i {cursor:pointer;}
 
 /* Catalog */
 .catalog-items {margin:0 0 2.643em -23px;}
-.catalog-items .filter {margin:0 0 1.071em 253px;}
-.catalog-items .filter-item {font-size:0.929em; padding:0.333em 0.833em 0.417em; margin:0 0.333em 0 0;}
+.catalog .filter {margin:0 0 1.071em 230px; float:left;}
+.catalog .filter-item {font-size:0.929em; padding:0.333em 0.833em 0.417em; margin:0 0.333em 0 0;}
 .catalog-item {border:1px solid #cec7c7; border-width:1px 0; margin-bottom:-1px; padding:0.571em 0 0.571em 253px; color:#000; position:relative;}
 .catalog-item a {color:#000 !important;}
 .catalog-item .link_service, .catalog-item-cart .bottle a {text-decoration:none; border-bottom:1px dotted;}
@@ -683,6 +683,28 @@ a.i {cursor:pointer;}
 .search-results-title span {font:italic 1.2em 'Times New Roman',serif;}
 .search-results .catalog-item-cnt {width:506px;}
 .search-results .catalog-item-taste_comb {width:368px;}
+
+/* Pager */
+.pagination {margin:-1.571em 0 2.643em;}
+.pager-item {float:left; font-size:0.929em; line-height:1.615; margin:0 0.231em 0 0; border:1px solid #fff;}
+.pager-item a {display:block; margin:0 -0.462em;}
+.pager-item, .pager a {color:#000 !important; padding:0 0.462em; position:relative; *zoom:1;}
+.pager-item_act {
+    border-color:#cec7c7;
+    background:#fbf6e1; /* Old browsers */
+    background-image:-webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#fbf6e1)); /* Saf4+, Chrome */
+    background-image:-webkit-linear-gradient(top, #ffffff, #fbf6e1); /* Chrome 10+, Saf5.1+, iOS 5+ */
+    background-image:   -moz-linear-gradient(top, #ffffff, #fbf6e1); /* FF3.6 */
+    background-image:    -ms-linear-gradient(top, #ffffff, #fbf6e1); /* IE10 */
+    background-image:     -o-linear-gradient(top, #ffffff, #fbf6e1); /* Opera 11.10+ */
+    background-image:        linear-gradient(to bottom, #ffffff, #fbf6e1);
+    -pie-background:   linear-gradient(top, #ffffff, #fbf6e1);
+    behavior:url(../css/PIE.htc);
+}
+
+.catalog .pager {float:right; clear:right; margin:0;}
+.catalog .pager-item {margin:0 0 0 0.231em;}
+
 
 /* SEO */
 .seo-title {font-size:1em; margin-bottom:0.571em;}
