@@ -687,8 +687,8 @@ a.i {cursor:pointer;}
 /* Pager */
 .pagination {margin:-1.571em 0 2.643em;}
 .pager-item {float:left; font-size:0.929em; line-height:1.615; margin:0 0.231em 0 0; border:1px solid #fff;}
-.pager-item a {display:block; margin:0 -0.462em;}
-.pager-item, .pager a {color:#000 !important; padding:0 0.462em; position:relative; *zoom:1;}
+.pager-item a {display:block; margin:0 -0.462em -0.077em;}
+.pager-item, .pager a {color:#000 !important; padding:0 0.462em 0.077em; position:relative; *zoom:1;}
 .pager-item_act {
     border-color:#cec7c7;
     background:#fbf6e1; /* Old browsers */
