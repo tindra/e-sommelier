@@ -449,11 +449,8 @@ a.i {cursor:pointer;}
 .sorter_on .sorter .sorter-items, .sorter_on .sorter_on .sorter .sorter-items {display:none;}
 .sorter_on .sorter_on .sorter-items, .sorter_on .sorter_on .sorter_on .sorter-items {display:block;}
 
-.sorter .i-arr {width:9px; height:5px; background-position:-226px -42px; right:4px; top:50%; margin-top:-1px;}
-.sorter_on .i-arr {background-position:-226px -37px;}
-
-.sorter .sorter .i-arr {background-position:-217px -42px;}
-.sorter_on .sorter_on .sorter .i-arr {background-position:-217px -37px;}
+.sorter .i-arr {width:16px; height:16px; background-position:-364px -31px; right:0; top:50%; margin-top:-6px;}
+.sorter_on .i-arr {background-position:-380px -31px;}
 
 .ie6 .sorter.pie_first-child, .ie7 .sorter.pie_first-child {margin-bottom:25px; padding-bottom:0;}
 .ie6 .sorter .sorter.pie_first-child, .ie7 .sorter .sorter.pie_first-child,
@@ -557,7 +554,7 @@ a.i {cursor:pointer;}
 /* Catalog Item Sampling Notes */
 .catalog-item-sampling, .catalog-item-sampling-title {background:url(../i/curly-brdr.gif) 0 0 repeat-x;}
 .catalog-item-sampling {font-style:italic; font-family:'Times New Roman',serif; color:#534741; width:230px; margin-left:-254px; float:left; clear:left;}
-.catalog-item-sampling-title {background-position:0 100%; font-weight:normal; font-size:1.286em; line-height:1.536; text-align:center; color:#362f2d; padding:0.111em 0 0.333em;}
+.catalog-item-sampling-title {background-position:0 100%; font-weight:normal; font-size:1.286em; line-height:1.536; text-align:center; color:#362f2d; padding:0.111em 0 0.333em; margin-bottom:0.444em;}
 .catalog-item-sampling-item {margin:0.571em 0 1em;}
 .catalog-item-sampling-item-title {font-weight:bold; font-size:1.143em; line-height:1.313;}
 
@@ -681,7 +678,7 @@ a.i {cursor:pointer;}
 .search-results-header p {color:#362f2d; line-height:1.571;}
 .search-results-title {font-weight:normal; font-size:1.429em; line-height:1.5; color:#000;}
 .search-results-title span {font:italic 1.2em 'Times New Roman',serif;}
-.search-results .catalog-item-cnt {width:506px;}
+.search-results .catalog-item-header, .search-results .catalog-item-cnt {width:506px;}
 .search-results .catalog-item-taste_comb {width:368px;}
 
 /* Pager */
