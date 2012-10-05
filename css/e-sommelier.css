@@ -302,25 +302,26 @@ a.i {cursor:pointer;}
 
 /* =Footer
 ----------------------------------------------- */
-.page-footer {width:1000px; height:19.429em; margin:-19.429em auto 0; position:relative;}
-.page-footer-header {border:2px solid #cec7c7; border-width:2px 0; padding:16px 0 25px 253px; *padding-bottom:15px;}
-.page-footer-logo {margin:4px 0 0 -223px;}
-.page-footer-logo, .page-footer-nav {float:left;}
+.page-footer {width:1000px; height:22.357em; margin:-22.357em auto 0; position:relative;}
+.page-footer-header {border:2px solid #cec7c7; border-width:2px 0; padding:16px 0 17px 253px; *padding-bottom:15px;}
+.page-footer-logo {float:left; margin:4px 0 0 -223px;}
+.page-footer .copyright, .page-footer-nav {width:500px;}
 .page-footer .copyright, .page-footer .phone {font-size:0.809em;}
 .page-footer .copyright {line-height:1.364; margin-bottom:0.883em;}
 .page-footer .copyright a {color:#9c0021;}
+.page-footer-nav {margin-bottom:0.971em;}
 .page-footer-nav, .page-footer-nav a {color:#534741;}
 .page-footer-nav-item {margin-right:1.133em; font-size:0.883em; line-height:1.621; display:inline;}
 .page-footer .phone {float:right; clear:right; margin:0; line-height:1.908;}
 .page-footer .phone-number {margin-bottom:0.701em; line-height:1.166;}
-.page-footer-bottom {font-size:0.809em; padding-top:0.265em;}
+.page-footer-bottom {font-size:0.809em; padding:0.265em 23px 0; margin:0 -23px; background:#fff;}
 .page-footer-bottom ul {margin-right:1.765em; line-height:1.908;}
 .page-footer-bottom a {color:#a8a3a3;}
 .page-footer-bottom ul {display:-moz-inline-stack; display:inline-block; *display:inline; *zoom:1; vertical-align:top;}
 
 /* =Content
 ----------------------------------------------- */
-.page-content {padding:1.286em 23px 22.357em;}
+.page-content {padding:1.286em 23px 25.286em;}
 
 /* Columns */
 .col_l, .col_c {float:left;}
@@ -838,8 +839,8 @@ input, textarea {font:1.143em/1.438 'Times New Roman',serif; font-style:italic;}
 .ac-item:last-child a {padding-bottom:0.207em;}
 
 /* Overlay */
-.overlay {display:none; background:rgba(0,0,0,0.6); position:fixed; left:0; right:0; bottom:0; top:30px; z-index:100;}
-.ie6 .overlay, .ie7 .overlay, .ie8 .overlay {background:#000; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)"; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);}
+.overlay {display:none; background:rgba(217,217,217,0.7); position:fixed; left:0; right:0; bottom:0; top:30px; z-index:100;}
+.ie6 .overlay, .ie7 .overlay, .ie8 .overlay {background:#737373; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)"; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);}
 
 /* Popup */
 .popup {
